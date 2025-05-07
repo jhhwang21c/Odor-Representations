@@ -28,6 +28,7 @@ This repository contains code and analyses for evaluating how neural population 
     -   `pseudopopulations.h5`: Neural responses (trials × ROIs × odors).
     -   `chemical_descriptors.h5`: Odor feature vectors.
     -   `odor_sets_with_cids.csv`: Odor set and CID mapping.
+    -   `intuitive_descriptors.csv`: Curated list of top-ranked chemical features including name, description, and source type
 -   `LICENSE`: MIT License.
 -   `README.md`: Project description and usage instructions.
 
