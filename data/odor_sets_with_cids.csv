@@ -1,0 +1,67 @@
+set,cid,odor
+global,13233,trithioacetone
+global,159055,R-camphor
+global,109332,isothiocineole
+global,62842,linalool
+global,12813,gamma-decalactone
+global,8186,undecanal
+global,17356,dicyclohexyl-disulfide
+global,6008212,1-ethylhexyl-tiglate
+global,228987,lillial
+global,7662,3-phenyl-propyl-isobutyrate
+global,106441,2-methoxy-6-isopropylpyrazine
+global,8815,4-Allylanisole
+global,1127,tetrahydrothiophene
+global,1045,putrescine
+global,519793,4-methyl-thio-butanol
+global,2346,benzyl-isothiocyanate
+global,8405,isoquinoline
+global,798,indole
+global,11902,methyl-2-furoate
+global,26808,"2,3,5-trimethylpyrazine"
+global,6115,aniline
+global,7976,2-methylpyrazine
+clustered,6999957,R-citronellic-acid
+clustered,8697,2-ethyl-hexanoic-acid
+clustered,62089,4-methyl-octanoic-acid
+clustered,14475,2-methyl-heptanoic-acid
+clustered,7662,3-phenyl-propyl-isobutyrate
+clustered,576240,2-phenyl-propyl-isobutyrate
+clustered,8792,phenethyl-iso-valerate
+clustered,8186,undecanal
+clustered,8187,undecylenic-aldehyde
+clustered,5283356,trans-2-undecenal
+clustered,6436710,cis-8-undecenal
+clustered,159055,R-camphor
+clustered,14525,fenchone
+clustered,444294,S-camphor
+clustered,14514,2-acetyl-5-methyl-furan
+clustered,12097,5-methyl-furfural
+clustered,11902,methyl-2-furoate
+clustered,69201,ethyl-3-furoate
+clustered,519793,4-methyl-thio-butanol
+clustered,8118,dipropyl-sulfide
+clustered,98781,allyl-sulfide
+clustered,11002,butyl-sulfide
+tiled,527,propanal
+tiled,261,butanal
+tiled,8063,pentanal
+tiled,8130,heptanal
+tiled,454,octanal
+tiled,180,propan-2-one
+tiled,6569,butan-2-one
+tiled,7895,pentan-2-one
+tiled,11583,hexan-2-one
+tiled,8051,heptan-2-one
+tiled,8093,octan-2-one
+tiled,8857,ethyl acetate
+tiled,7997,propyl acetate
+tiled,31272,butyl acetate
+tiled,12348,pentyl acetate
+tiled,8908,hexyl acetate
+tiled,1032,propanoic acid
+tiled,264,butanoic acid
+tiled,7991,pentanoic acid
+tiled,8892,hexanoic acid
+tiled,8094,heptanoic acid
+tiled,379,octanoic acid

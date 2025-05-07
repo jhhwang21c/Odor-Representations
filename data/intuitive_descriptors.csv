@@ -1,0 +1,81 @@
+Odor Set,Dragon No.,Name,Description,Block
+Global,250,rGes,Relative number of symmetry classes (based on electrotopological state),Information indices
+Global,371,ChiA_X,average Randic-like index from chi matrix,2D matrix-based descriptors
+Global,375,SpPosA_X,normalized spectral positive sum from chi matrix,2D matrix-based descriptors
+Global,721,VE1_B(m),coefficient sum of the last eigenvector (absolute values) from Burden matrix weighted by mass,2D matrix-based descriptors
+Global,1071,GATS1i,Geary autocorrelation of lag 1 weighted by ionization potential,2D autocorrelations
+Global,1306,SpMAD_EA(ri),spectral mean absolute deviation from edge adjacency mat. weighted by resonance integral,Edge adjacency indices
+Global,1611,MEcc,molecular eccentricity,Geometrical descriptors
+Global,1687,SpPosA_RG,normalized spectral positive sum from reciprocal squared geometrical matrix,3D matrix-based descriptors
+Global,1693,SpMAD_RG,spectral mean absolute deviation from reciprocal squared geometrical matrix,3D matrix-based descriptors
+Global,1701,VE1_RG,coefficient sum of the last eigenvector (absolute values) from reciprocal squared geometrical matrix,3D matrix-based descriptors
+Global,2231,Mor07s,signal 07 / weighted by I-state,3D-MoRSE descriptors
+Global,2240,Mor16s,signal 16 / weighted by I-state,3D-MoRSE descriptors
+Global,2284,G1v,1st component symmetry directional WHIM index / weighted by van der Waals volume,WHIM descriptors
+Global,2285,G2v,2nd component symmetry directional WHIM index / weighted by van der Waals volume,WHIM descriptors
+Global,2298,E1e,1st component accessibility directional WHIM index / weighted by Sanderson electronegativity,WHIM descriptors
+Global,2307,G2p,2nd component symmetry directional WHIM index / weighted by polarizability,WHIM descriptors
+Global,2331,E1s,1st component accessibility directional WHIM index / weighted by I-state,WHIM descriptors
+Global,2516,RARS,R matrix average row sum,GETAWAY descriptors
+Global,2607,RTp+,R maximal index / weighted by polarizability,GETAWAY descriptors
+Global,4925,Hy,hydrophilic factor,Molecular properties
+Clustered,260,IC2,Information Content index (neighborhood symmetry of 2-order),Information indices
+Clustered,284,BIC2,Bond Information Content index (neighborhood symmetry of 2-order),Information indices
+Clustered,381,SpMAD_X,spectral mean absolute deviation from chi matrix,2D matrix-based descriptors
+Clustered,739,SpPosA_B(v),normalized spectral positive sum from Burden matrix weighted by van der Waals volume,2D matrix-based descriptors
+Clustered,1079,GATS1s,Geary autocorrelation of lag 1 weighted by I-state,2D autocorrelations
+Clustered,1317,SpMax_AEA(dm),leading eigenvalue from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Clustered,1321,SpMAD_AEA(dm),spectral mean absolute deviation from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Clustered,1576,Eig01_AEA(dm),eigenvalue n. 1 from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Clustered,1611,MEcc,molecular eccentricity,Geometrical descriptors
+Clustered,1614,PJI3,3D Petitjean shape index,Geometrical descriptors
+Clustered,2199,Mor07i,signal 07 / weighted by ionization potential,3D-MoRSE descriptors
+Clustered,2230,Mor06s,signal 06 / weighted by I-state,3D-MoRSE descriptors
+Clustered,2237,Mor13s,signal 13 / weighted byI-state,3D-MoRSE descriptors
+Clustered,2246,Mor22s,signal 22 / weighted byI-state,3D-MoRSE descriptors
+Clustered,2273,G1m,1st component symmetry directional WHIM index / weighted by mass,WHIM descriptors
+Clustered,2284,G1v,1st component symmetry directional WHIM index / weighted by van der Waals volume,WHIM descriptors
+Clustered,2331,E1s,1st component accessibility directional WHIM index / weighted by I-state,WHIM descriptors
+Clustered,2362,Di,D total accessibility index / weighted by ionization potential,WHIM descriptors
+Clustered,4946,DLS_02,modified drug-like score from Oprea et al. (6 rules),Drug-like indices
+Clustered,4947,DLS_03,modified drug-like score from Walters et al. (6 rules),Drug-like indices
+Tiled,272,SIC2,Structural Information Content index (neighborhood symmetry of 2-order),Information indices
+Tiled,368,AVS_X,average vertex sum from chi matrix,2D matrix-based descriptors
+Tiled,371,ChiA_X,average Randic-like index from chi matrix,2D matrix-based descriptors
+Tiled,633,Chi_Dz(p),Randic-like index from Barysz matrix weighted by polarizability,2D matrix-based descriptors
+Tiled,635,J_Dz(p),Balaban-like index from Barysz matrix weighted by polarizability,2D matrix-based descriptors
+Tiled,1149,SpMax2_Bh(s),largest eigenvalue n. 2 of Burden matrix weighted by I-state,Burden eigenvalues
+Tiled,1288,SpMaxA_EA(ed),normalized leading eigenvalue from edge adjacency mat. weighted by edge degree,Edge adjacency indices
+Tiled,1317,SpMax_AEA(dm),leading eigenvalue from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Tiled,1576,Eig01_AEA(dm),eigenvalue n. 1 from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Tiled,1614,PJI3,3D Petitjean shape index,Geometrical descriptors
+Tiled,2201,Mor09i,signal 09 / weighted by ionization potential,3D-MoRSE descriptors
+Tiled,2208,Mor16i,signal 16 / weighted by ionization potential,3D-MoRSE descriptors
+Tiled,2226,Mor02s,signal 02 / weighted by I-state,3D-MoRSE descriptors
+Tiled,2227,Mor03s,signal 03 / weighted by I-state,3D-MoRSE descriptors
+Tiled,2265,E1u,1st component accessibility directional WHIM index / unweighted,WHIM descriptors
+Tiled,2274,G2m,2nd component symmetry directional WHIM index / weighted by mass,WHIM descriptors
+Tiled,2320,E1i,1st component accessibility directional WHIM index / weighted by ionization potential,WHIM descriptors
+Tiled,2326,P1s,1st component shape directional WHIM index / weighted by I-state,WHIM descriptors
+Tiled,2589,RTe+,R maximal index / weighted by Sanderson electronegativity,GETAWAY descriptors
+Tiled,2636,R2s+,R maximal autocorrelation of lag 2 / weighted by I-state,GETAWAY descriptors
+Boutons,272,SIC2,Structural Information Content index (neighborhood symmetry of 2-order),Information indices
+Boutons,368,AVS_X,average vertex sum from chi matrix,2D matrix-based descriptors
+Boutons,371,ChiA_X,average Randic-like index from chi matrix,2D matrix-based descriptors
+Boutons,633,Chi_Dz(p),Randic-like index from Barysz matrix weighted by polarizability,2D matrix-based descriptors
+Boutons,635,J_Dz(p),Balaban-like index from Barysz matrix weighted by polarizability,2D matrix-based descriptors
+Boutons,1149,SpMax2_Bh(s),largest eigenvalue n. 2 of Burden matrix weighted by I-state,Burden eigenvalues
+Boutons,1317,SpMax_AEA(dm),leading eigenvalue from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Boutons,1576,Eig01_AEA(dm),eigenvalue n. 1 from augmented edge adjacency mat. weighted by dipole moment,Edge adjacency indices
+Boutons,1614,PJI3,3D Petitjean shape index,Geometrical descriptors
+Boutons,2137,Mor09e,signal 09 / weighted by Sanderson electronegativity,3D-MoRSE descriptors
+Boutons,2201,Mor09i,signal 09 / weighted by ionization potential,3D-MoRSE descriptors
+Boutons,2208,Mor16i,signal 16 / weighted by ionization potential,3D-MoRSE descriptors
+Boutons,2265,E1u,1st component accessibility directional WHIM index / unweighted,WHIM descriptors
+Boutons,2274,G2m,2nd component symmetry directional WHIM index / weighted by mass,WHIM descriptors
+Boutons,2320,E1i,1st component accessibility directional WHIM index / weighted by ionization potential,WHIM descriptors
+Boutons,2329,G2s,2nd component symmetry directional WHIM index / weighted by I-state,WHIM descriptors
+Boutons,2330,G3s,3rd component symmetry directional WHIM index / weighted by I-state,WHIM descriptors
+Boutons,2589,RTe+,R maximal index / weighted by Sanderson electronegativity,GETAWAY descriptors
+Boutons,4948,DLS_04,modified drug-like score from Chen et al. (7 rules),Drug-like indices
+Boutons,4953,LLS_01,modified lead-like score from Congreve et al. (6 rules),Drug-like indices
