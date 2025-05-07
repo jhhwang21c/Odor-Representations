@@ -1,47 +1,40 @@
-# cortical-representations-odour-space
+# Structured and Distributed Odor Representations in the Piriform Cortex
 
-# Structure and flexibility in cortical representations of odour space 
-
-## Authors
-Stan L. Pashkovski, Giuliano Iurilli, David Brann, Daniel Chicharro, Kristen Drummey, Kevin M. Franks,Stefano Panzeri, &Sandeep Robert Datta†
-
-†Corresponding author. Email: srdatta@hms.harvard.edu
+**Authors**: John Hwang, Ivanna Garibay  
+**Course**: Harvard Neuro 120
 
 ## Abstract
-The cortex organizes sensory information to enable discrimination and generalization. As systematic representations of chemical odour space have not yet been described in the olfactory cortex, it remains unclear how odour relationships are encoded to place chemically distinct but similar odours, such as lemon and orange, into perceptual categories, such as citrus. Here, by combining chemoinformatics and multiphoton imaging in the mouse, we show that both the piriform cortex and its sensory inputs from the olfactory bulb represent chemical odour relationships through correlated patterns of activity. However, cortical odour codes differ from those in the bulb: cortex more strongly clusters together representations for related odours, selectively rewrites pairwise odour relationships, and better matches odour perception. The bulb-to-cortex transformation depends on the associative network originating within the piriform cortex, and can be reshaped by passive odour experience. Thus, cortex actively builds a structured representation of chemical odour space that highlights odour relationships; this representation is similar across individuals but remains plastic, suggesting a means through which the olfactory system can assign related odour cues to common and yet personalized percepts.
 
-## Manuscript
+The mouse piriform cortex enables odor discrimination using a limited number of broadly tuned neurons. To investigate whether odor representations in this circuit are sparse or distributed, we analyzed calcium imaging data from layers 2 and 3 during passive exposure to three structured odor sets (global, tiled, clustered). Lifetime and population sparseness measures (means = 0.82 and 0.93, respectively) indicated high selectivity and low coding density. Hierarchical clustering revealed compact representations in clustered L3, while decoding analyses showed that accuracy increased with more neurons, supporting distributed but sparse coding. Logistic regression classifiers achieved perfect accuracy in global L3 but dropped to ~80% in TeLC conditions, highlighting the role of recurrent connectivity. L2 maintained high-dimensional, chemically structured responses, while L3 representations were more compact and generalized. Together, these results suggest that the piriform cortex encodes odors via sparse, overlapping populations shaped by recurrence, transitioning from fine discrimination in L2 to abstraction in L3.
 
-For more details, please see our manuscript [here](https://doi.org/10.1038/s41586-020-2451-1).
+## Project Overview
 
-# Installation
+This repository contains code and analyses for evaluating how neural population coding in the piriform cortex supports odor discrimination. It replicates and extends methods from:
 
-## Requirements
-1. Make a new conda env, e.g. `conda create -n piriform python=3.8`
-2. Activate that env `conda activate piriform`.
-3. Clone and enter this repo: `git clone git@github.com:dattalab/cortical-representations-odour-space.git && cd cortical-representations-odour-space`
-4. To install the specific versions of packages used when testing the scripts in this repo you can do `pip install -r requirements.txt`. Alternatively, the minimal requirements for running the scripts and notebooks in this repo are:
-```
-pip install seaborn scikit-learn h5py tables
-pip install jupyter notebook
-```
+> Pashkovski et al. (2020). _Structure and flexibility in cortical representations of odour space_. Nature, 583(7815), 253–258.  
+> https://doi.org/10.1038/s41586-020-2451-1
 
-## Supplementary data
+## Key Analyses
 
-1. Processed data files are hosted on Zenodo:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7754362.svg)](https://doi.org/10.5281/zenodo.7754362)
+-   **Neuron Exclusion Decoding**: Test how decoding accuracy changes as high-sparseness or high-response neurons are excluded.
+-   **Sparseness Metrics**: Compute lifetime and population sparseness to quantify selectivity and coding density.
+-   **Hierarchical Clustering & Silhouette Scores**: Evaluate how odors cluster in neural representation space.
+-   **Layer & Manipulation Comparisons**: Compare L2 vs. L3 and the effects of TeLC manipulation across three odor sets.
 
-* Download `pseudopopulations.h5` and `chemical_descriptors.h5` from zenodo and add them to the [data](./data/) folder.
+## File Structure
 
-2. Data about the odor sets can be found [here](./data/odor_sets_with_cids.csv).
+-   `final_code.ipynb`: Main analysis notebook.
+-   `data/`: Folder containing required files:
+    -   `pseudopopulations.h5`: Neural responses (trials × ROIs × odors).
+    -   `chemical_descriptors.h5`: Odor feature vectors.
+    -   `odor_sets_with_cids.csv`: Odor set and CID mapping.
+-   `LICENSE`: MIT License.
+-   `README.md`: Project description and usage instructions.
 
-# Examples
-Code to replicate key figures in [Pashkovski et al. 2020](https://doi.org/10.1038/s41586-020-2451-1). 
+## Running the Notebook
 
-1. Open a new jupyter notebook with `jupyter notebook`.
-2. Run the [notebooks](./notebooks). The notebooks should load the mean odor responses and calculate chemical and neural distance matrices.
-
-# Contact
-For more details on additional preprocessing steps or analyses, please consult the methods in our manuscript, post an issue here, or contact the authors.
-# Odor-Representations
-# Odor-Representations
+1. Clone this repository and place data files in the `data/` directory.
+2. Open the notebook:
+    ```bash
+    jupyter notebook final_code.ipynb
+    ```
